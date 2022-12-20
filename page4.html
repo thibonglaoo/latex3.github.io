@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang=“en”>
+<head>
+<meta charset=“utf-8”>
+<title> insert of image </title>
+</head>
+<body>
+	<nav>
+
+
+<a style="text-decoration: none" href="index.html"> HOME</a>
+<a style="text-decoration: none" href="page1.html"> PAGE 1</a>
+<a style="text-decoration: none" href="page2.html"> PAGE 2</a>
+<a style="text-decoration: none" href="page3.html"> PAGE 3</a>
+<a style="text-decoration: none" href="page4.html"> PAGE 4</a>
+<a style="text-decoration: none" href="page5.html"> PAGE 5</a>
+<a style="text-decoration: none" href="page6.html"> PAGE 6</a>
+<a style="text-decoration: none" href="page7.html"> PAGE 7</a>
+<a style="text-decoration: none" href="contact.html"> CONTACT</a>
+
+
+</nav>
+
+<p> <strong>4.Application to the Technology of DAM </strong><br/>
+	A dam has the shape of trapezoid as shown in the figure below.The height of the dam is 20metre and width is 50m at the top and 30m at the bottom.We are to determine the force on the dam due to hydrostatic pressure when the water level is 4m from the top of the dam 
+	<center>
+	<img src="dam.png"width="300"/>
+</center>
+We choose a vertical x-axis with origin at the surface of water as shown in the figure.<br/>
+The depth of water is 16cm,so we divide the interval [0,16]into subintervals of equal lengths with end points x<sub>i</sub> and xE[X<sub>i-1</sub>,x<sup>i</sup>]. <br/>
+The  ith  horizontal strip of the dam is approximately a rectangle with height &Delta; x and width &omega;<sub>i</sub>.Now from similar triangles[see fig.(b)above]<br/>
+
+a/16-X<sub>i</sub>=10/20 i.e.,a=8-x<sub>i</sub><br/>
+
+and so &omega;<sub>i</sub>=2 (15+a) =46-x<sub>i</sub><br/>
+
+If  A<sub>i</sub> be the area of the ith  strip,then<br/>
+
+A<sub>i</sub>= &omega;<sub>i</sub> &Delta; x = (46-X<sub>i</sub>)&Delta; x <br/>
+
+If &Delta; x is small,then the pressure  p<sub>i</sub> on the ith strip is almost constant,and<br/>
+
+P<sub>i</sub> =pgd=1000g x<sub>i</sub><br/>
+
+The force f<sub>i</sub>due to hydrostatic pressure is given by<br/>
+
+f<sub>i</sub> =Force x area= P<sub>i</sub>A<sub>i</sub> =1000g x<sub>i</sub>(46-X<sub>i</sub>)&Delta; <br/>
+
+Adding the forces and taking the limit as  n &rarr; &infin; <br/>
+F=lim<sub>n&rarr;&infin;=&sum;<sub>i=l</sub><sub>n</sub>1000g x}<sub>i</sub>(46-X<sub>i</sub>)&Delta; x <br/>
+
+=&int;<sub>0</sub><sup>16</sup>1000g x (46-x)dx <br/>
+=1000 x 9.8[23x<sup>2</sup>-X<sup>3</sup>/3]<sup>16</sup><sub>0</sub><br/>
+=4.43 x 10<sup>7</sup> Newton.
+
+
+</p>
+</body>
+</html>
